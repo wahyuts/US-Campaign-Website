@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.h2SocialFontDetail {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.pSocialFontDetail {
+  color: #706f71;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pNumberSocialFontDetail {
+  color: #706f71;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.h2NumberSocialFontDetail {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #0082ff;
+}
+
+.pNumberSocialFontDetailSos {
+  color: #706f71;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.h2NumberSocialFontDetailSos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #0082ff;
+}
+
+.pNumberSocialFontDetailOrg {
+  color: #706f71;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.h2NumberSocialFontDetailOrg {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #0082ff;
+}
+
+.pNumberSocialFontDetailDonation {
+  color: #706f71;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.h2NumberSocialFontDetailDonation {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #0082ff;
+}
+
+.contDataTaken {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: thistle; */
+}
+
+.innerContDataTaken {
+  width: 89%;
+  /* height: 300px; */
+  /* background-color: brown; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreInnerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.moreInnerDiv:first-child {
+  width: 35%;
+}
+
+.moreInnerDiv:last-child {
+  width: 38%;
+  margin-right: 0;
+}
+
+.onlyForOrg {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 925px) {
+  .h2SocialFontDetail {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .innerContDataTaken {
+    width: 89%;
+    /* background-color: brown; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .moreInnerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .onlyForSocial {
+    margin-left: 45px;
+  }
+
+  /* .onlyTextForSocial {
+    margin-left: 45px;
+  } */
+
+  .pNumberSocialFontDetailSos {
+    color: #706f71;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 25px;
+  }
+
+  .h2NumberSocialFontDetailSos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 38px;
+    color: #0082ff;
+  }
+
+  .moreInnerDiv:first-child {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .onlyForOrg {
+    margin-left: 45px;
+    margin-bottom: 35px;
+  }
+
+  .pNumberSocialFontDetailOrg {
+    color: #706f71;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 25px;
+  }
+
+  .h2NumberSocialFontDetailOrg {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 60px;
+    color: #0082ff;
+  }
+
+  .moreInnerDiv:nth-child(even) {
+    width: 100%;
+    /* background-color: cadetblue; */
+  }
+
+  .pNumberSocialFontDetailDonation {
+    color: #706f71;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .h2NumberSocialFontDetailDonation {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 60px;
+    color: #0082ff;
+  }
+
+  .moreInnerDiv:last-child {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .pNumberSocialFontDetail {
+    color: #706f71;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .h2NumberSocialFontDetail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0082ff;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .contDataTaken {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: thistle; */
+  }
+}

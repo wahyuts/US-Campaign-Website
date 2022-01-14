@@ -1,0 +1,10 @@
+.contGeneral {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+
+.childrenFlex {
+  flex: 1 0 auto;
+}

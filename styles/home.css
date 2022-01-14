@@ -1,0 +1,23 @@
+.owl-carousel .owl-item img {
+    display: inline;
+  }
+  .owl-prev img {
+    width: 40px !important;
+    margin-right: 12px;
+  }
+  .owl-next img {
+    width: 40px !important;
+    margin-left: 12px;
+  }
+  .owl-nav button {
+    outline: none !important;
+    margin-top: 2%;
+    align-self: center;
+  }
+  .owl-nav button:hover {
+    background: inherit !important;
+  }
+  .owl-nav {
+    text-align: center !important;
+  }
+  

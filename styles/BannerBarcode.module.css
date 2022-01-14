@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.contBannerBarcode {
+  position: relative;
+  width: 100%;
+  height: 538px;
+  background-color: palegoldenrod;
+}
+
+.contBannerBarcodeMobile {
+  position: relative;
+  width: 100%;
+  height: 155vw;
+  background: linear-gradient(122.71deg, #0082ff 37.46%, #00d1ff 103.51%);
+}
+
+.h2BannerBarcodeText {
+  font-family: 'Raleway', sans-serif;
+  /* font-size: 32px; */
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.pBannerBarcodeText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.theBarcode {
+  position: absolute;
+  width: 40%;
+  height: 75%;
+  top: 10%;
+  left: 5%;
+  /* background-color: pink; */
+}
+
+.h2BannerText {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.pBannerText {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .theBarcode {
+    position: absolute;
+    width: 40%;
+    height: 75%;
+    top: 10%;
+    left: 8%;
+    /* background-color: pink; */
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .theBarcode {
+    position: absolute;
+    width: 40%;
+    height: 75%;
+    top: 10%;
+    left: 14%;
+    /* background-color: pink; */
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .theBarcode {
+    position: absolute;
+    width: 40%;
+    height: 75%;
+    top: 10%;
+    left: 18%;
+    /* background-color: pink; */
+  }
+}

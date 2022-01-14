@@ -1,0 +1,97 @@
+.mainCont {
+  width: 100%;
+  margin-bottom: 50px;
+  /* background-color: brown; */
+}
+.innerMainCont {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxRole {
+  width: 45%;
+  background-color: #fafafa;
+  margin-right: 10px;
+}
+
+.boxRole2 {
+  width: 45%;
+  background-color: #fafafa;
+}
+
+.h2fontRole {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 925px) {
+  .innerMainCont {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .boxRole {
+    width: 100%;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+  }
+
+  .boxRole2 {
+    width: 100%;
+    background-color: #fafafa;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .innerMainCont {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .innerMainCont {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .innerMainCont {
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 575px) {
+}

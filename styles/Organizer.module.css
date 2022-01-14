@@ -1,0 +1,1609 @@
+
+.section-content {
+  padding: 6% 0;
+}
+.section-content1 {
+  padding: 0 0 6%;
+}
+.section-benefit {
+  background: #EFF6FE;
+}
+.section-onboarding{
+  background-image: url("/organizer/bg-onboarding.png");
+  background-size: cover;
+}
+.section-challenge {
+  background: #ffffff;
+}
+.section-stories {
+  background: #ffffff;
+}
+.section-contact {
+  background: #0082FF;
+}
+.section-guidebook {
+  background: #ffffff;
+}
+.sectionContent {
+  padding: 6% 0%;
+}
+.title-section {
+  font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.title-section1 {
+  font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.title-section2 {
+  font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.desc-section{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333333  ;
+  text-align: center;
+  padding-top: 1rem;
+}
+.desc-stories{
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333333  ;
+  text-align: center;
+  padding-top: 1rem;
+}
+.title-mob{
+display: none;
+}
+h6.title{
+  font-weight: bold;
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+h3.name{
+  color: #ffffff;
+  margin-top: 1.5rem;
+}
+h5.jobs{
+  color: #ffffff;
+
+}
+p.email{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 3rem;
+}
+.no-border{
+  border:none;
+  padding-bottom: 0;
+}
+.card-benefit {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /* width: 40%; */
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 0.75rem;
+  width: 360px;
+}
+.card-benefit:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-challenge {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: 0.3s;
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 0.75rem;
+  cursor: pointer;
+}
+.card-challenge1 {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 0.75rem;
+  padding-top: 0;
+}
+.card-challenge:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+.img-challenge{
+  width: 200px!important;
+  height: 200px;
+  margin-right: 0;
+}
+.img-challenge1{
+  width: 300px!important;
+  height: 300px;
+  margin-bottom: 1.5rem;
+}
+.img-logo{
+  height: 35px;
+  width: 35px!important;
+}
+.img-steps-mob{
+  display: none;
+}
+
+.tag-sponsor{
+  background-color: #0082FF;
+  color: #ffffff;
+  align-self: center;
+  height: 52px;
+  padding: 15px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.title-challenge{
+  text-align: left;
+  margin-top: 16px;
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;  
+}
+.desc-challenge{
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.button-challenge{
+  position: relative;
+  text-align: right;
+  margin-bottom: 10px;
+
+}
+.btn-challenge {
+  border : 1px solid #0082FF;
+  color: #0082FF;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+.btn-challenge:hover{
+  background-color: #0082FF;
+  color: #ffffff;
+}
+span.border{
+  border-left: 2px solid #E9E8E8;
+  margin : 0 20px;
+}
+h4.join{
+  font-weight: bold;
+  text-align: left;
+  color: #333333;
+}
+p.descjoin{
+  color: #706F71;
+  text-align: left;
+  width: 400px;
+}
+h5.join1{
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+}
+p.descjoin1{
+  color: #706F71;
+  text-align: center;
+  width: auto;
+}
+p.organizer{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0082FF;
+  margin: 0;
+  margin-left : 12px;
+  align-self: center;
+}
+p.part{
+  font-family: "Roboto", sans-serif;
+  color: #8E8E8E;
+  margin: 0;
+  align-self: center;
+
+}
+p.campaign{
+  font-family: "Roboto", sans-serif;
+  color: #0082FF;
+  font-weight: 700;
+  margin: 0;
+  margin-left : 5px;
+  align-self: center;
+}
+.div-desc{
+  position: relative;
+  /* padding-left: 0; */
+  /* margin-left: -2%; */
+}
+.guidebook-mob{
+  display: none;
+}
+.div-organizer{
+  position: absolute;
+  bottom: 0px;
+}
+.div-organizer1{
+  position: relative;
+  margin-top: 10%;
+}
+.tag-isu{
+  padding: 8px 16px;
+  color: #101010;
+  border: 2px solid;
+  margin-right: 12px;
+  align-self: center;
+}
+.desc-isu{
+  margin: 0;
+  margin-left: 8px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #101010;
+  font-weight: 600;
+}
+.education{
+  border-color: #8A59F1;
+}
+.equality{
+  border-color: #F89502;
+}
+.health{
+  border-color: #F15959;
+}
+.environment{
+  border-color: #03A631;
+}
+.carousel-control-next{
+  position: absolute;
+    bottom: 0;
+    align-self: flex-end!important;
+   
+}
+.flex-card{
+  padding-left: 190px;
+  padding-right: 190px;
+  justify-content: center;
+}
+.img-benefit{
+width: 100px;
+height: 100px;
+}
+.img-steps{
+  width: 100%;
+  margin-top: 3rem;
+  }
+  .img-sponsor{
+    width: 100%;
+    }
+.img-contact{
+    width: 70%;
+}
+.img-stories{
+  padding-left: 40%;
+  padding-right: 40%;
+  margin-bottom: -12%;
+}
+.card-stories{
+  background-color: #EFF6FE;
+  padding: 10% 7% 5%;
+}
+.line-stories{
+  border: 5px solid #0082FF;
+  justify-content: center;
+  width: 50px;
+}
+.pngContact {
+  width: 65%;
+}
+.sectionHeader {
+  background: url("https://campaign.com/assets/uni_img/organizer/newbanner/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  position: relative;
+  height: 0;
+  padding-bottom: 46%;
+}
+.titleHeader {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 0% 10%;
+}
+.btnSponsor {
+  border: none;
+  outline: none;
+  background-color: #0082ff;
+  border-radius: 100px;
+  height: 55px;
+  width: 25%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  border: 2px solid #0082ff;
+}
+.titleContent {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #333333;
+}
+.contactTitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: 0.04em;
+  color: #333333;
+}
+.contactName {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+  color: #333333;
+}
+.contactPosition {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500%;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333333;
+  margin-top: -5px;
+}
+.contactPhone {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #706f71;
+}
+.campaignText {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333333;
+  text-align: center;
+}
+.cardStyle {
+  background: #eff6fe;
+  border-radius: 30px;
+  border-color: #fff;
+  margin-right: 0% !important;
+  height: 650px !important;
+}
+.titleStyle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333333;
+  text-align: center;
+}
+.textStyle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.04em;
+  color: #706f71;
+}
+.heart {
+  width: 12px !important;
+  height: 12px;
+  margin-left: -25px;
+  margin-top: 8px;
+}
+.boxHeart {
+  margin-left: 25px;
+}
+.featured {
+  width: 100%;
+  height: 100%;
+}
+.featuredmob {
+  display: none !important;
+}
+.imgFeatured1 {
+  background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/ren1.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+}
+.imgFeatured2 {
+  background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/ren2.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+}
+.imgFeatured3 {
+  background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/ren3.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+}
+.imgFeatured4 {
+  background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/ren4.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+}
+.imgFeatured5 {
+  background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/ren5.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+}
+.imgSponsor {
+  width: 160px;
+  margin: 0px;
+}
+.quote {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #706f71;
+}
+.subSuccess {
+  background: #f8f8f8;
+  border-radius: 30px;
+  padding: 4% 7%;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 520px;
+}
+hr.garis {
+  border: 3px solid #0082FF;
+  width: 60px;
+}
+.successName {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #706f71;
+  text-align: center;
+}
+.successSponsor {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #706f71;
+  text-align: center;
+}
+.successComp {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333333;
+  text-align: center;
+}
+.seeSponsored {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #0082ff;
+}
+.test {
+  width: 35%;
+}
+.logoSuccess {
+  width: 200px !important;
+  height: 200px;
+  transform: translate(0%, -70%);
+}
+.up {
+  margin-bottom: -150px;
+}
+.titlePadding {
+  padding-bottom: 15px;
+}
+.imgCard {
+  width: 200px !important;
+  height: 200px !important;
+  margin-top: 30px;
+  display: inherit !important;
+}
+.item {
+  width: auto;
+  height: auto;
+}
+.item3 {
+  width: auto;
+  height: auto;
+}
+.itemf {
+  width: auto;
+  height: auto;
+}
+.itemColl {
+  width: auto;
+  height: 720px;
+}
+.itemps {
+  height: 500px;
+}
+.bottomText {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  bottom: 5%;
+  text-align: center;
+  padding: 0% 10%;
+}
+.bottomTitle {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  bottom: 15%;
+  text-align: center;
+}
+.groupSponsor {
+  width: 2400px !important;
+  height: 200px;
+}
+.owl-carousel .owl-item img {
+  display: inline;
+}
+.example {
+  width: 100%;
+  height: 230px;
+  display: inline;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* overflow-x: scroll; */
+}
+.example::-webkit-scrollbar {
+  display: none;
+}
+a#white-id {
+  color: #0083ff !important;
+}
+.sectionContent1 {
+  padding: 0% 0;
+  padding-top: 0% !important;
+}
+.content1 {
+  padding-top: 5%;
+  position: absolute;
+}
+.floatLeft {
+  float: left !important;
+}
+.tncPics {
+  float: right;
+  width: 52%;
+  position: relative;
+  padding-top: 10%;
+  margin-right: -3%;
+}
+.campTnc {
+  float: right;
+  width: 30%;
+  position: relative;
+  padding-top: 26%;
+  margin-right: -18%;
+  z-index: 1;
+}
+.titleHeader1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 54px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 1%;
+  width: 550px;
+  padding-bottom: 5%;
+}
+.titleHeader2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 75px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 5%;
+}
+.spanHeader1 {
+  width: 10%;
+  border-radius: 2px;
+  border-top: 2px solid #fff;
+  /* display: inline-block; */
+  margin-top: 1.15rem;
+  float: right;
+}
+.spanHeader2 {
+  display: inline-block;
+  width: 22%;
+  border-radius: 6px;
+  border-top: 5px solid #fff;
+  margin-left: 0%;
+  margin-top: 0px;
+  margin-bottom: auto;
+}
+/* .span-header2{width:22%;border-radius:40px; border-top: 13px solid #fff;margin-left:0%;display:inline-block;margin-top:auto;margin-bottom:0px;} */
+.spanHeader3 {
+  display: none;
+}
+
+.btnSponsor {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  height: 55px;
+  width: 25%;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  padding: 2% 8%;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+.btnSponsor:hover {
+  color: #0082ff;
+  background-color: white;
+}
+
+.whitebox {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 35px;
+}
+.whitebox-text {
+  color: #0082ff;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 39px;
+  letter-spacing: 0.04em;
+}
+.pDownload {
+  padding: 5% 0%;
+  margin: 0%;
+}
+.imgDownload {
+  float: right;
+  padding: 2.5% 2%;
+}
+.divCamp {
+  position: relative;
+  text-align: left;
+}
+.imgDownCamp {
+  width: 90%;
+  position: absolute;
+  margin-top: -20%;
+}
+.alignImpact {
+  text-align: left;
+}
+.breadcrumb {
+  margin-left: -1%;
+}
+.breadcrumb {
+  background-color: #ffffff;
+  color: #706f71;
+}
+.breadcrumbItem.active {
+  color: #000;
+  font-weight: bold;
+}
+/* li a {
+  color: #706f71;
+} */
+.breadcrumbItem + .breadcrumbItem::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #0082ff;
+  font-family: "FontAwesome";
+  content: url(https://campaign.com/assets/uni_img/pressroom/polyblack.svg);
+}
+#btnAgenda2 {
+  background-color: #0082ff;
+  border: 2px solid #fff;
+}
+#btnAgenda2:hover {
+  color: #0082ff;
+  background-color: white;
+  border: 2px solid #0082ff;
+}
+.btnTim {
+  border: none;
+  outline: none;
+  background-color: #0082ff;
+  border-radius: none;
+  width: 250px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  border: 2px solid #0082ff;
+  padding: 2%;
+}
+.btnTim:hover {
+  background-color: white;
+  color: #0082ff;
+}
+.col1Title {
+  color: #706f71;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: justify;
+  padding-bottom: 0px;
+}
+.col1Content {
+  color: #706f71;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: justify;
+}
+.careerImg {
+  width: 50%;
+  margin-left: auto;
+  margin-right: 10%;
+}
+.paddingtop {
+  padding-top: 3%;
+}
+.mob {
+  padding-top: 3%;
+}
+.mobTitle {
+  display: none;
+}
+.sectionDownloadMob {
+  display: none;
+}
+.benefitmob{
+  display: none;
+}
+.modal-mob{
+  display: none;
+}
+.div-organizer-mob{
+  display: none!important;
+}
+.img-isu{
+  display: none!important;
+}
+.img-sponsor-mob{
+  display: none!important;
+}
+
+@media only screen and (min-width: 1200px) {
+  #carouselSponsor {
+    display: none;
+  }
+  #itemSponsor {
+    display: none;
+  }
+  .paddingWhy {
+    padding: 0px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .btnTim {
+    width: 80%;
+    font-size: 16px;
+    padding: 2.5%;
+  }
+  .pngContact {
+    width: 70%;
+  }
+  .btnSponsor {
+    width: 40%;
+    font-size: 16px;
+    height: 45px;
+  }
+  .titleHeader {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .titleContent {
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .contactTitle {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .contactName {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .contactPosition {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .contactPhone {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .campaignText {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .titleStyle {
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .textStyle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .heart {
+    width: 12px !important;
+    height: 12px;
+    margin-left: -25px;
+  }
+  .boxHeart {
+    margin-left: 25px;
+  }
+  .cardTitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .cardStyle {
+    height: 640px !important;
+  }
+  .subSuccess {
+    border-radius: 20px;
+    margin-top: 80px;
+    height: 440px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .successName {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+  .successSponsor {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .successComp {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #333333;
+  }
+  .quote {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .seeSponsored {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .logoSuccess {
+    width: 150px !important;
+    height: 150px;
+    transform: translate(0%, -80%);
+  }
+  .up {
+    margin-bottom: -130px;
+  }
+  .titlePadding {
+    padding-bottom: 5px;
+  }
+  .imgCard {
+    width: 180px !important;
+    height: 180px !important;
+    margin-top: 30px;
+    display: inherit !important;
+  }
+  .groupSponsor {
+    width: 2400px !important;
+    height: 180px;
+    display: inline-block;
+  }
+  .example {
+    width: 100%;
+    height: 220px;
+    /* overflow-x: scroll; */
+  }
+
+  .btnSponsor {
+    width: 40%;
+    font-size: 14px;
+    height: 45px;
+    padding: 1.2%;
+  }
+  .timeline::after {
+    height: 89.2%;
+  }
+
+  .imgDownCamp {
+    width: 100%;
+    margin-left: -5%;
+  }
+  .whiteboxText {
+    font-size: 14px;
+  }
+  .descDownloadReport {
+    font-size: 20px;
+  }
+  .boxImpactReport {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .titleHeader1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 5%;
+    padding-right: 10%;
+  }
+  .content1 {
+    padding-top: 7%;
+    position: absolute;
+  }
+  .col1Content {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .col1Title {
+    font-size: 26px;
+    line-height: 20px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-sponsor-mob{
+    display: block!important;
+    width: 70%!important;
+    margin: 0 0.5rem;
+  }
+  .img-sponsor-des{
+    display: none!important;
+  }
+  .img-isu{
+    display: block!important;
+    width: 10%!important;
+    margin-right: 0.5rem;
+  }
+  .div-organizer-mob{
+    display: flex!important;
+  }
+  .modal-des{
+    display: none;
+  }
+
+  .modal-mob{
+    display: block;
+  }
+  .card-challenge{
+    padding: 1rem;
+  }
+  .title-mob{
+    display: block;
+    }
+    .title-des{
+      display: none;
+      }
+  h3.name{
+    font-size: 16px;
+    margin-top: 1.5rem;
+  }
+  h5.jobs{
+    font-size: 16px;
+  }
+  p.email{
+    font-size: 16px;
+    margin-top: 1.25rem;
+
+  }
+  .section-onboarding{
+    background-image: url("/organizer/bgstep-mob.png");
+    background-size: cover;
+  }
+  .img-steps{
+    display: none;
+  }
+  .img-steps-mob{
+    display: block;
+    margin: 2rem auto;
+  }
+  .div-desc{
+    padding: 0;
+  }
+  .title-challenge{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0.75rem;
+  }
+  .tag-isu{
+    display: none;
+  }
+  .img-challenge{
+    width: 100px!important;
+    height: 100px!important;
+  }
+  .img-logo{
+    display: none!important;
+  }
+  .div-organizer{
+    display: none!important;
+  }
+  p.organizer{
+    margin-left: 0px;
+    margin-right: 5px;
+    color: #333333;
+    font-size: 14px;
+  }
+  .tag-sponsor{
+    font-size: 14px;
+    height: 40px;
+    padding: 10px;
+  }
+  h4.join{
+    text-align: center;
+    font-size: 16px;
+  }
+  p.descjoin{
+    text-align: center;
+    width: auto;
+    font-size: 14px;
+  }
+  .desc-challenge{
+    font-size: 14px;
+  }
+  .button-challenge{
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .btn-challenge{
+    padding: 10px 60px;
+  }
+  .card-benefit{
+    height: 255px;
+  }
+  .title-section {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .title-section1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .desc-stories{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 4em;
+  }
+  h4.name{
+    font-size: 16px;
+  }
+  h6.title{
+    margin-top: 0.75rem;
+  }
+  .img-stories{
+    padding-left:  25%;
+    padding-right:  25%;
+    margin-bottom: -30%;
+  }
+  .benefitmob{
+    display: block;
+  }
+  .benefitdes{
+    display: none;
+  }
+  .owl-prev img {
+    width: 35px !important;
+    margin-right: 8px;
+  }
+  .owl-next img {
+    width: 35px !important;
+    margin-left: 8px;
+  }
+  .sectionHeader {
+    background-image: url("https://campaign.com/assets/uni_img/organizer/newbanner/bannermob.png");
+    height: 750px;
+    background-size: 100%;
+  }
+  .pngContact {
+    width: 100%;
+    text-align: center;
+  }
+  .sectionContent {
+    padding: 10% 5%;
+  }
+  .sectionContent1 {
+    padding: 10% 0;
+    padding-top: 0%;
+  }
+  .titleHeader {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  .titleContent {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+  }
+  .contactTitle {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    margin: 0%;
+  }
+  .contactName {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 54px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    margin: 0%;
+  }
+  .contactPosition {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+  }
+  .contactPhone {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #706f71;
+    margin: 0%;
+    letter-spacing: 0.04em;
+  }
+  .campaignText {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #706f71;
+    letter-spacing: 0.04em;
+  }
+  .titleStyle {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+  }
+  .cardStyle {
+    border-radius: 12px;
+    height: 540px !important;
+    width: 92% !important;
+  }
+  .textStyle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .heart {
+    width: 12px !important;
+    height: 12px;
+    margin-left: -20px;
+  }
+  .boxHeart {
+    margin-left: 20px;
+  }
+  .imgFeatured1 {
+    background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/renm1.png);
+    height: 110%;
+  }
+  .imgFeatured2 {
+    background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/renm2.png);
+    height: 110%;
+  }
+  .imgFeatured3 {
+    background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/renm3.png);
+    height: 110%;
+  }
+  .imgFeatured4 {
+    background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/renm4.png);
+    height: 110%;
+  }
+  .imgFeatured5 {
+    background-image: url(https://www.campaign.com/assets/uni_img/organizer/en/renm5.png);
+    height: 110%;
+  }
+  .cardTitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .subSuccess {
+    border-radius: 12px;
+    padding: 6% 8%;
+    margin-top: 80px;
+    height: 550px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .successName {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+  .successSponsor {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .successComp {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #333333;
+  }
+  .quote {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .seeSponsored {
+    font-size: 14px;
+    line-height: 32px;
+  }
+  .logoSuccess {
+    width: 130px !important;
+    height: 130px;
+    transform: translate(0%, -60%);
+  }
+  .up {
+    margin-bottom: -90px;
+  }
+  .titlePadding {
+    padding-bottom: 0px;
+  }
+  .imgCard {
+    width: 160px !important;
+    height: 160px !important;
+    margin-top: 0px;
+    display: inline !important;
+  }
+  .padCol {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .padtop {
+    padding-top: 20px;
+  }
+  .item {
+    height: 570px;
+    width: auto;
+  }
+  .item3 {
+    height: 720px;
+    width: auto;
+  }
+  .itemColl {
+    height: 600px;
+  }
+  .itemf {
+    height: 680px;
+    width: auto;
+  }
+  .borderTypeform {
+    border-radius: 12px !important;
+  }
+  .itemSponsor {
+    height: 300px;
+    width: 100%;
+  }
+  .imgSponsor {
+    width: 100px;
+  }
+  .bottomText {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 4%;
+    text-align: center;
+    padding: 0% 10%;
+  }
+  .mob {
+    float: none !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .groupSponsor {
+    width: 1500px !important;
+    height: 120px;
+  }
+  .example {
+    width: 100%;
+    height: 150px;
+    /* overflow-x: scroll; */
+  }
+  .titleHeader1 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10%;
+    width: 100%;
+    padding-right: 10%;
+  }
+  .content1 {
+    padding-top: 15%;
+  }
+  .tncPics {
+    width: 100%;
+    display: block;
+    padding-top: 120%;
+    position: static;
+    margin-right: 0px;
+    float: none;
+  }
+  .campTnc {
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    padding-top: 0%;
+    position: static;
+    margin-top: -25%;
+  }
+  .iconLove {
+    width: 5%;
+  }
+  .spanHeader3 {
+    display: block;
+    width: 25%;
+    border-radius: 2px;
+    border-top: 1px solid #fff;
+    margin-left: 0px;
+    margin-top: 0px;
+    float: none;
+    margin-bottom: 0px !important;
+  }
+  .titleHeader2 {
+    font-size: 48px;
+    line-height: 45px;
+  }
+  .spanHeader2 {
+    width: 35%;
+    border-radius: 6px;
+    border-top: 5px solid #fff;
+    display: block;
+    margin-top: 0.8rem;
+  }
+  .btnSponsor {
+    width: 100%;
+    font-size: 16px;
+    height: 45px;
+    padding: 5% 10% 5% 10%;
+  }
+  .spanHeader1 {
+    display: none;
+  }
+
+  .imgDownload {
+    float: right;
+    padding: 7% 2%;
+    width: 15%;
+  }
+  .whiteboxText {
+    font-size: 12px;
+  }
+  .descDownloadReport {
+    font-size: 14px;
+    padding: 3% 3%;
+  }
+  .whitebox {
+    margin-left: 5%;
+  }
+  .divCamp {
+    position: relative;
+    text-align: left;
+  }
+  .imgDownCamp {
+    width: 130%;
+    margin-top: -25%;
+    position: absolute;
+  }
+  .pDownload {
+    padding: 2% 0%;
+    margin: 0%;
+  }
+  .boxImpactReport {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .alignImpact {
+    text-align: center;
+  }
+  .btnTim {
+    width: 80%;
+    font-size: 16px;
+    padding: 2.5%;
+  }
+  .col1Content {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+  .col1Title {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .careerImg {
+    width: 100%;
+    margin: auto;
+    padding: 7% 20%;
+  }
+  .guidebook-des{
+    display: none;
+  }
+  .guidebook-mob{
+    display: block;
+  }
+  .contact-center{
+    text-align: center;
+  }
+  .col1Content{
+    padding: 0px 15%;
+  }
+  .btnTim{
+    width: 50%;
+  }
+  .mob {
+    justify-content: center;
+    padding-top: 8% !important;
+  }
+  .mobTitle {
+    display: block;
+    text-align: center;
+  }
+  .pcTitle {
+    display: none;
+  }
+  .sectionDownload {
+    display: none;
+  }
+  .sectionDownloadMob {
+    display: block;
+  }
+
+  .featured {
+    width: 100%;
+    height: 100%;
+    display: none !important;
+  }
+  .featuredmob {
+    width: 100%;
+    height: 100%;
+    display: block !important;
+  }
+}

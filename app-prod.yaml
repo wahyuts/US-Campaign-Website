@@ -1,0 +1,13 @@
+runtime: nodejs
+env: flex
+service: web-us-production
+automatic_scaling:
+    cool_down_period_sec: 180
+    cpu_utilization:
+        target_utilization: 0.9
+resources:
+    cpu: 1
+    memory_gb: 2
+    disk_size_gb: 30
+readiness_check:
+  app_start_timeout_sec: 1800

@@ -1,0 +1,30 @@
+.h2SponsorBanner {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainCont {
+  width: '100%';
+  background-color: #eff6fe;
+}
+
+.innerCont {
+  width: 85%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 925px) {
+  .h2SponsorBanner {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+  }
+}

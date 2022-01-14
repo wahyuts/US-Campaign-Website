@@ -1,0 +1,77 @@
+.innerCont {
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eff6fe;
+  margin-bottom: 50px;
+}
+
+.innerCont2 {
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 925px) {
+  .innerCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eff6fe;
+    margin-bottom: 50px;
+  }
+
+  .innerCont2 {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .innerCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eff6fe;
+    margin-bottom: 50px;
+  }
+
+  .innerCont2 {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .innerCont {
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eff6fe;
+    margin-bottom: 50px;
+  }
+
+  .innerCont2 {
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .innerCont {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eff6fe;
+    margin-bottom: 50px;
+  }
+
+  .innerCont2 {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

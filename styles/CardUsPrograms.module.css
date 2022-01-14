@@ -1,0 +1,197 @@
+.embla__card__slide {
+  position: relative;
+  min-width: 70%;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.firstInnerContCard {
+  width: 100%;
+  /* height: 100%; */
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: yellow; */
+}
+
+.innerContComment {
+  width: 90%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.divMainImageCard {
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.divMainDesc {
+  width: 70%;
+  /* background-color: blue; */
+}
+
+.hastag {
+  width: 90%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.secondPartCard {
+  position: relative;
+  width: 100%;
+  min-height: 72px;
+  /* background-color: brown; */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.innerSecondPartCard {
+  width: 80%;
+  /* background-color: pink; */
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contImagePhoto {
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  /* background-color: azure; */
+  display: flex;
+  justify-content: center;
+  /* margin-left: 40%;
+    margin-top: 100; */
+  z-index: 1;
+}
+
+.theCardUs {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: red; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.innerCardUs {
+  display: flex;
+  width: 100%;
+}
+
+.contDivImage {
+  position: relative;
+  width: 50%;
+}
+
+.btnThisPrograms {
+  position: absolute;
+  bottom: 2;
+  width: 233px;
+  height: 18px;
+  margin-left: 30px;
+  /* margin-right: auto;
+  margin-top: 40px; */
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.cardTitleUs {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  color: #0b318f;
+}
+
+.descUs {
+  width: 90%;
+  min-height: 150px;
+  margin-left: 30px;
+  margin-right: auto;
+  /* background-color: yellow; */
+}
+
+@media only screen and (max-width: 925px) {
+  .embla__card__slide {
+    position: relative;
+    min-width: 100%;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  }
+  .theCardUs {
+    width: 95%;
+    min-height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .innerCardUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contDivImage {
+    position: relative;
+    width: 100%;
+  }
+
+  .secondPartCard {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    /* background-color: brown; */
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .cardTitleUs {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    text-align: center;
+    color: #0b318f;
+  }
+
+  .descUs {
+    width: 90%;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+    text-align: center;
+  }
+
+  .btnThisPrograms {
+    position: relative;
+    /* bottom: 2;
+    left: 20px; */
+    width: 233px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 40px; */
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+}

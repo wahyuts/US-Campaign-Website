@@ -1,0 +1,105 @@
+.embla__card__slide {
+  position: relative;
+  min-width: 40%;
+  /* height: 290px; */
+  /* min-width: 25%; */
+  margin-left: 20px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 25px; */
+  /* padding-left: 10px; */
+  background-color: #f7f7f7;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.firstInnerContCard {
+  width: 100%;
+  /* height: 100%; */
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: yellow; */
+}
+
+.innerContComment {
+  width: 90%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.divMainImageCard {
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.divMainDesc {
+  width: 70%;
+  /* background-color: blue; */
+}
+
+.hastag {
+  width: 90%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.secondPartCard {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  background: linear-gradient(80.09deg, #0082ff -28.68%, #dd3232 94.74%);
+  /* background-color: brown; */
+  display: flex;
+  align-items: flex-end;
+}
+
+.innerSecondPartCard {
+  width: 80%;
+  /* background-color: pink; */
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contImagePhoto {
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  /* background-color: azure; */
+  display: flex;
+  justify-content: center;
+  /* margin-left: 40%;
+  margin-top: 100; */
+  z-index: 1;
+}
+
+@media only screen and (max-width: 925px) {
+  .embla__card__slide {
+    position: relative;
+    min-width: 100%;
+    /* height: 290px; */
+    /* min-width: 25%; */
+    margin-left: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 25px; */
+    /* padding-left: 10px; */
+    background-color: #f7f7f7;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}

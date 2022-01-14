@@ -1,0 +1,83 @@
+.contBannerReview {
+  position: relative;
+  width: 100%;
+  min-height: 476px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.innerContBannerReview {
+  position: absolute;
+  /* background-color: thistle; */
+  color: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.h2BannerReview {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.benListCard {
+  width: 85%;
+  height: 254px;
+  position: absolute;
+  /* background-color: yellow; */
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxCard {
+  width: 332px;
+  height: 254px;
+  margin-right: 20px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxCard2 {
+  width: 332px;
+  height: 254px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 925px) {
+  .h2BannerReview {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+
+  .innerContBannerReview {
+    position: absolute;
+    /* background-color: thistle; */
+    color: white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}

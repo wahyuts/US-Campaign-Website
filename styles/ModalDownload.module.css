@@ -1,0 +1,10 @@
+.btnDownload {
+  width: 17%;
+  /* width: 162px; */
+  background-color: white;
+  color: #0082ff;
+  border: 1px solid #0082ff;
+  text-align: center;
+  margin-left: auto;
+  cursor: pointer;
+}

@@ -1,0 +1,184 @@
+.contBannerReview {
+  position: relative;
+  width: 100%;
+  min-height: 766px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.innerContBannerReview {
+  position: absolute;
+  /* background-color: thistle; */
+  color: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.h2BannerReview {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.benListCard {
+  width: 85%;
+  height: 254px;
+  position: absolute;
+  /* background-color: yellow; */
+  margin-left: auto;
+  margin-right: auto;
+  top: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.benListCard2 {
+  width: 85%;
+  height: 254px;
+  position: absolute;
+  /* background-color: yellow; */
+  margin-left: auto;
+  margin-right: auto;
+  top: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxCard {
+  width: 332px;
+  height: 254px;
+  margin-right: 20px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxCard2 {
+  width: 332px;
+  height: 254px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 925px) {
+  .h2BannerReview {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+
+  .contBannerReview {
+    position: relative;
+    width: 100%;
+    min-height: 466px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .innerContBannerReview {
+    position: absolute;
+    /* background-color: thistle; */
+    color: white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .benListCard {
+    width: 85%;
+    height: 254px;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .benListCard2 {
+    width: 85%;
+    height: 254px;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 55%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .benListCard {
+    width: 75%;
+    height: 254px;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .benListCard2 {
+    width: 75%;
+    height: 254px;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 55%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .benListCard {
+    width: 65%;
+    height: 254px;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .benListCard2 {
+    width: 65%;
+    height: 254px;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 55%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

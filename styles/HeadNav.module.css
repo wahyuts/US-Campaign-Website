@@ -1,0 +1,125 @@
+.navmainbar {
+  /* background-color: red; */
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.navmainbarMobile {
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.contToolbar {
+  /* min-width: 70%; */
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contLiNav {
+  width: 80%;
+  /* background-color: aqua; */
+  display: flex;
+  /* list-style: none;
+  color: #ffffff; */
+}
+
+.eachLi {
+  margin-left: 50px;
+  font-size: 16px;
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.eachLi:hover {
+  color: #aac6db;
+}
+
+.eachLi:active {
+  color: #aac6db;
+}
+
+.eachLi:focus {
+  color: #aac6db;
+}
+
+.eachLi:first-child {
+  margin-left: 0px;
+}
+
+.eachLi:last-child {
+  margin-right: 50px;
+}
+
+.eachBoxMenuMobile {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* background-color: orange; */
+}
+
+.eachBoxMenuMobile:hover {
+  background-color: rgba(68, 72, 74, 0.5);
+}
+
+.btnDownload {
+  width: 17%;
+  /* width: 162px; */
+  background-color: white;
+  color: #0082ff;
+  border: 1px solid #0082ff;
+  text-align: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1300px) {
+  .contToolbar {
+    /* min-width: 70%; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .contToolbar {
+    /* min-width: 70%; */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .contToolbar {
+    /* min-width: 70%; */
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 575px) {
+}

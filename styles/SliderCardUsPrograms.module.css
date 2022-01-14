@@ -1,0 +1,108 @@
+.embla {
+  position: relative;
+  /* background-color: purple; */
+  padding: 20px;
+  /* padding-bottom: 50px; */
+  max-width: 90%;
+
+  /* max-width: 90%; */
+  /* height: 332px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 120px;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__viewport.is-draggable {
+  cursor: move;
+  cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.embla__container {
+  display: flex;
+  user-select: none;
+  /* background-color: blue; */
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: 'auto';
+  margin-right: 'auto';
+  /* margin-left: -10px; */
+}
+
+@media only screen and (max-width: 925px) {
+  .embla {
+    position: relative;
+    /* background-color: purple; */
+    padding: 20px;
+    /* padding-bottom: 50px; */
+    max-width: 90%;
+
+    /* max-width: 90%; */
+    /* height: 332px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .embla {
+    position: relative;
+    /* background-color: purple; */
+    padding: 20px;
+    /* padding-bottom: 50px; */
+    max-width: 88%;
+
+    /* max-width: 90%; */
+    /* height: 332px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .embla {
+    position: relative;
+    /* background-color: purple; */
+    padding: 20px;
+    /* padding-bottom: 50px; */
+    max-width: 77%;
+
+    /* max-width: 90%; */
+    /* height: 332px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .embla {
+    position: relative;
+    /* background-color: purple; */
+    padding: 20px;
+    /* padding-bottom: 50px; */
+    max-width: 66%;
+
+    /* max-width: 90%; */
+    /* height: 332px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }
+}

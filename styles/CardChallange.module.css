@@ -1,0 +1,293 @@
+.embla__card__slide {
+  position: relative;
+  /* min-width: 50%; */
+  min-width: 800px;
+  min-height: 332px;
+  /* min-height: 280px; */
+  /* min-width: 25%; */
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  /* padding-left: 10px; */
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstInnerContCard {
+  /* position: absolute; */
+  position: relative;
+  width: 95%;
+  min-height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: yellow; */
+}
+
+.upMainCard {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+}
+
+.divMainImageCard {
+  width: 30%;
+  height: 100%;
+  /* height: 100px; */
+  /* background-color: green; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.divMainDesc {
+  position: relative;
+  width: 80%;
+  /* min-height: 270px; */
+  /* background-color: pink; */
+}
+
+.pChallTitleText {
+  /* font-size: 18px; */
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hastag {
+  width: 90%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.divMainSponsors {
+  position: absolute;
+  bottom: 0px;
+  left: 25px;
+  width: 90%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 0px; */
+  display: flex;
+  align-items: center;
+}
+
+.divForTextActionFrom {
+  height: 38px;
+  /* width: 466px; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0082ff;
+  margin-right: 5px;
+}
+
+.mainDivForGroupImgSponsor {
+  /* background-color: green; */
+  width: 50%;
+  display: flex;
+  padding-left: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.innerHastag {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid black;
+}
+
+.secondPartCard {
+  width: 100%;
+  height: 35%;
+  /* background-color: brown; */
+  display: flex;
+  /* align-items: center; */
+  align-items: center;
+}
+
+.innerSecondPartCard {
+  width: 80%;
+  /* background-color: pink; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.pSecondCard {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.pHastag {
+  font-size: 16px;
+  font-weight: 500px;
+  margin-bottom: 0px;
+  color: #0082ff;
+}
+
+.pCampaigner {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 925px) {
+  .embla__card__slide {
+    position: relative;
+    min-width: 300px;
+    min-height: 162px;
+
+    /* min-width: 100%; */
+    /* height: 290px; */
+    /* min-width: 25%; */
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* padding-left: 10px; */
+    /* background-color: #f7f7f7; */
+    /* background-color: red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .divMainImageCard {
+    width: 100%;
+    height: 100%;
+    /* height: 100px; */
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* margin-right: auto; */
+  }
+
+  .hastag {
+    width: 90%;
+    /* background-color: pink; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .pHastag {
+    font-size: 14px;
+    font-weight: 500px;
+    margin-bottom: 0px;
+    color: #0082ff;
+  }
+
+  .pCampaigner {
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+
+  .upMainCard {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstInnerContCard {
+    position: relative;
+    width: 90%;
+    /* min-height: 90%; */
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+  }
+
+  .divMainDesc {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    /* background-color: pink; */
+  }
+
+  .secondPartCard {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+    /* background-color: brown; */
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .pChallTitleText {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .pSecondCard {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+
+  .innerHastag {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid transparent;
+  }
+
+  .divMainSponsors {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    width: 90%;
+    /* background-color: pink; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: flex-start;
+  }
+
+  .divForTextActionFrom {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0082ff;
+    margin-bottom: 5px;
+  }
+
+  .mainDivForGroupImgSponsor {
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+}

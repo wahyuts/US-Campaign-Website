@@ -1,0 +1,423 @@
+.contBannerHomepage {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contBannerHomepageSponsor {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContBanner {
+  position: absolute;
+  color: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.innerContBannerSponsor {
+  position: absolute;
+  color: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.firstBox {
+  width: 45%;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+
+.btnCollaborate {
+  width: 317px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btnCollaborate2 {
+  width: 317px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btnCollaborate2Sponsor {
+  width: 317px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.h2BannerFontDetail {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.h2BannerFontDetailSponsor {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 68px;
+  font-weight: 700;
+}
+
+.pBannerFontDetail {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.pBannerFontPrograms {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  /* margin-top: 24px; */
+}
+
+.h2BannerAwardMobile {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pBannerAwardMobile {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.ContBannerCollaborate {
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.h2LetsCollaborate {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cardOrganizerAndSponsor {
+  position: relative;
+  width: 30%;
+  background-color: #ffffff;
+  /* background-color: #e5e5e5; */
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardOrganizerAndSponsor2 {
+  position: relative;
+  width: 30%;
+  /* height: 500px; */
+  background-color: #ffffff;
+  /* background-color: #e5e5e5; */
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardSocialFairWeek {
+  position: relative;
+  width: 30%;
+  background-color: #ffffff;
+  /* background-color: #e5e5e5; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contListCardCollaborate {
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: brown; */
+  margin-bottom: 50px;
+}
+
+.btnForCard23 {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.layoutModal {
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.modal {
+  /* width: 672px;
+  height: 376px; */
+  width: 670px;
+  height: 370px;
+  /* line-height: 200px; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: -180px;
+  margin-left: -340px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  z-index: 11; /* 1px higher than the overlay layer */
+}
+
+.ImInterestedButton {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  border: 2px solid #0082ff;
+  color: #0082ff;
+  font-weight: 700;
+}
+
+.HeadNavButtonText {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ImInterestedButton:hover {
+  background-color: #0082ff;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 925px) {
+  .contBannerHomepage {
+    height: 600px;
+  }
+
+  .contBannerHomepageSponsor {
+    min-height: 600px;
+  }
+
+  .innerContBannerSponsor {
+    position: absolute;
+    color: white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .h2BannerFontDetail {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .h2BannerFontDetailSponsor {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .pBannerFontDetail {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+
+  .pBannerFontPrograms {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    /* margin-top: 24px; */
+  }
+
+  .h2LetsCollaborate {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .btnCollaborate {
+    /* width: 275px; */
+    width: 100%;
+  }
+
+  .btnCollaborate2 {
+    /* width: 275px; */
+    width: 100%;
+  }
+
+  .btnCollaborate2Sponsor {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .contListCardCollaborate {
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: brown; */
+    margin-bottom: 50px;
+  }
+
+  .cardOrganizerAndSponsor {
+    position: relative;
+    width: 100%;
+    /* height: 500px; */
+    background-color: #ffffff;
+    /* background-color: #e5e5e5; */
+    margin-right: 1px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .cardOrganizerAndSponsor2 {
+    position: relative;
+    width: 100%;
+    /* height: 500px; */
+    background-color: #ffffff;
+    /* background-color: #e5e5e5; */
+    margin-right: 1px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .cardSocialFairWeek {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    /* background-color: #e5e5e5; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .btnForCard23 {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .firstBox {
+    width: 100%;
+    margin-right: auto;
+    margin-right: auto;
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .contListCardCollaborate {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: brown; */
+    margin-bottom: 50px;
+  }
+
+  .firstBox {
+    width: 45%;
+    margin-right: 10px;
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .contListCardCollaborate {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: brown; */
+    margin-bottom: 50px;
+  }
+
+  .firstBox {
+    width: 35%;
+    margin-right: 50px;
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .contListCardCollaborate {
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: brown; */
+    margin-bottom: 50px;
+  }
+
+  .firstBox {
+    width: 35%;
+    margin-right: 0px;
+    margin-top: 45px;
+  }
+}

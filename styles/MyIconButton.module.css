@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.myIconButton {
+  width: 100%;
+  background-color: transparent;
+  color: #0082ff;
+  border: none;
+  /* height: 68px; */
+  /* font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; */
+}

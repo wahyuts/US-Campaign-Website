@@ -1,0 +1,122 @@
+.mainContSocialFairWeek {
+  width: 89%;
+  /* height: 300px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  /* background-color: brown; */
+}
+
+.h2SocialFairWeekTitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pSocialFairWeekSubTitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #706f71;
+}
+
+.contPicAndDesc {
+  width: 100%;
+  display: flex;
+}
+
+.InnerCardImagesSocialFairWeek {
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 636px; */
+  height: 100%;
+
+  width: 90%;
+  /* width: 550px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contPicture {
+  width: 50%;
+  /* background-color: yellow; */
+}
+
+.contDesc {
+  width: 50%;
+  /* background-color: green; */
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 925px) {
+  .mainContSocialFairWeek {
+    width: 89%;
+    /* height: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* background-color: brown; */
+  }
+  .contPicture {
+    width: 100%;
+    /* background-color: yellow; */
+  }
+  .contPicAndDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contDesc {
+    width: 90%;
+    /* background-color: green; */
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .mainContSocialFairWeek {
+    width: 89%;
+    /* height: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* background-color: brown; */
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .mainContSocialFairWeek {
+    width: 75%;
+    /* height: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* background-color: brown; */
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .mainContSocialFairWeek {
+    width: 67%;
+    /* height: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* background-color: brown; */
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 575px) {
+}

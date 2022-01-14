@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.mainContReceiveUpdate {
+  width: 100%;
+  background-color: #eff6fe;
+  /* display: flex; */
+}
+
+.innerContReceiveUpdate {
+  width: 100%;
+  background-color: #eff6fe;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contImageBot {
+  width: 40%;
+  /* background-color: orange; */
+  height: 548px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.onlyForImage {
+  width: 350px;
+  height: 350px;
+}
+
+.contMainForm {
+  width: 60%;
+  /* background-color: green; */
+  height: 548;
+  display: flex;
+  align-items: center;
+}
+
+.innerContMainForm {
+  width: 80%;
+  /* background-color: pink; */
+  /* height: 400px; */
+  margin-bottom: 20px;
+}
+
+.divForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelForm {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.inputField {
+  padding-left: 10px;
+  height: 40px;
+  border: none;
+}
+
+.inputField:focus {
+  outline: none;
+  /* border: 1px solid #0082ff; */
+}
+
+.btnSendUpdate {
+  width: 196px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.errorMsg {
+  font-size: 15px;
+  color: red;
+}
+
+.h2TitleReceiveUpdate {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 925px) {
+  .mainContReceiveUpdate {
+    width: 100%;
+    background-color: #eff6fe;
+  }
+
+  .innerContReceiveUpdate {
+    width: 100%;
+    background-color: #eff6fe;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contImageBot {
+    width: 100%;
+    /* background-color: orange; */
+    height: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .contMainForm {
+    width: 100%;
+    /* background-color: green; */
+    height: 548;
+    display: flex;
+    align-items: center;
+  }
+
+  .innerContMainForm {
+    width: 80%;
+    /* background-color: pink; */
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 400px; */
+    margin-bottom: 20px;
+  }
+
+  .h2TitleReceiveUpdate {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .labelForm {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .btnSendUpdate {
+    width: 196px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+  .onlyForImage {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .innerContReceiveUpdate {
+    width: 85%;
+    background-color: #eff6fe;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
